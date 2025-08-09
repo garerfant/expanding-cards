@@ -12,3 +12,8 @@ const removeActiveClasses = () => {
     panel.classList.remove("active");
   });
 };.
+const removeActiveClasses = () => {
+  panels.forEach((panel) => {
+    panel.classList.remove("active");
+  });
+};.
